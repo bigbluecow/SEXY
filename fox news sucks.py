@@ -12,11 +12,20 @@ for item in nested_list:
     for createdvariable in item:
         print(createdvariable)"""
 
-prices = {"Banana": 4, "Apple":  2, "Orange": 1.5, "Pear": 3}
-stocks = {"Banana": 6, "Apple": 0, "Orange": 32, "Pear": 15}
+prices = {
+    "Banana": 4,
+    "Apple":  2,
+    "Orange": 1.5,
+    "Pear": 3}
+stock = {
+    "Banana": 6,
+    "Apple": 0,
+    "Orange": 32,
+    "Pear": 15}
 
-for hi in prices:
-    print (hi)
-for bye in stocks:
-    print(bye)
+for fruit in prices:
+    print (fruit)
+    print( "Price: " + str(prices[fruit]))
+    print( "Stock: " + str(stock[fruit]))
+
     
